@@ -1,0 +1,23 @@
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg-dark);
+  padding: 2rem;
+  height: 120px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.expression {
+  color: var(--color-text-muted);
+  font-size: 1.5rem;
+}
+
+.result {
+  color: var(--color-primary);
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
